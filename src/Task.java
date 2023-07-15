@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Task {
@@ -13,6 +15,8 @@ public class Task {
      * @return "Среда"
      */
     public String getWeekOfDay(int year, int month, int day) {
+
+
         return "";
     }
 
@@ -79,8 +83,8 @@ public class Task {
      * @return 4
      */
     public int getSmallestMissing(int[] numbers) {
-        return 0;
-    }
+      return 0;
+       }
 
     /**
      * Учитывая массив nums из различных целых чисел, верните все возможные перестановки, в виде двойного массива.
@@ -89,7 +93,10 @@ public class Task {
      * @return [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
      */
     public List<List<Integer>> permute(int[] nums) {
+
+
         return null;
+
     }
 
     /**
