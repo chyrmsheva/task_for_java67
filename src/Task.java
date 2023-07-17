@@ -17,6 +17,7 @@ public class Task {
     public String getWeekOfDay(int year, int month, int day) {
 
 
+
         return "";
     }
 
@@ -83,7 +84,12 @@ public class Task {
      * @return 4
      */
     public int getSmallestMissing(int[] numbers) {
-      return 0;
+        int n = numbers.length;
+        int m = n+1;
+        int total = m*(m+1)/2;
+        int sum = Arrays.stream(numbers).sum();
+        return total - sum;
+
        }
 
     /**
